@@ -1,0 +1,31 @@
+.leaflet-container {
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+.add-to-db , #dropdown, .clr{
+  background-color: #318CE7;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  position: absolute;
+  z-index: 2;
+  box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.2);
+  margin: 0.5em;
+  top : 20px;
+}
+.add-to-db {
+  right : 20px
+}
+#dropdown {
+  right : 250px;
+}
+.clr {
+  right: 170px;
+}
+.leaflet-top , .leaflet-right{
+  display: none;
+}
